@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B76E7FDEAE3BA883AEDC01 /* UINibView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26090194D0829397C4C8216F /* UINibView.h */; };
+		23402FA68B68B66919E3DB8C /* UINibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B427C8168FEDF246034F96 /* UINibView.m */; };
+		4EAFF0615F6DD25B3402D981 /* UINibView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26090194D0829397C4C8216F /* UINibView.h */; };
+		56EE1F966852E6622539D6FA /* Pods-NibView-NibView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B2E09C6045457518345256 /* Pods-NibView-NibView-dummy.m */; };
+		5BB631AEB14668DF46A32358 /* Pods-Tests-NibView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E54F9F301D1512E5A2211D76 /* Pods-Tests-NibView-dummy.m */; };
+		833B1A24BB64D37510DBBA76 /* UINibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B427C8168FEDF246034F96 /* UINibView.m */; };
+		96AD6F98EE12F793EEC4656B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743BEE678AE3F063DDF4D189 /* Foundation.framework */; };
+		B529A1B18A802BB8C39D6E90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743BEE678AE3F063DDF4D189 /* Foundation.framework */; };
+		C569CB84CB528B864048F0C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743BEE678AE3F063DDF4D189 /* Foundation.framework */; };
+		EC0639A64E5EAA042F089E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743BEE678AE3F063DDF4D189 /* Foundation.framework */; };
+		EFD8F08C5E2C94F661C30A3A /* Pods-NibView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C868DE3143C3B65BFEF60C /* Pods-NibView-dummy.m */; };
+		F93BC93714674436245F4664 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D47C5DBD9768D230D373B6 /* Pods-Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E6D8DC58D026AB5A4492FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F06A5863F0C61C7FD152C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3842CC3876D9BB35A2C23CE9;
+			remoteInfo = "Pods-NibView-NibView-NibView";
+		};
+		A68DC4D8EAF6996BCBDB3690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F06A5863F0C61C7FD152C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC753323D7699C36857C1ACC;
+			remoteInfo = "Pods-Tests-NibView-NibView";
+		};
+		DC998F1C0B2ACB08DE3723C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F06A5863F0C61C7FD152C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C398A369013B65E3D3434C;
+			remoteInfo = "Pods-NibView-NibView";
+		};
+		FAB7A72F4F6DE364B598F9DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F06A5863F0C61C7FD152C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 073E3C9287ED370D881CD00B;
+			remoteInfo = "Pods-Tests-NibView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08524E65F9774277F6118157 /* NibView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1161C9B1DDE5DE8F837860E6 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		26090194D0829397C4C8216F /* UINibView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UINibView.h; sourceTree = "<group>"; };
+		2CA633474FF6E268BC3C417D /* Pods-NibView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NibView.debug.xcconfig"; sourceTree = "<group>"; };
+		32D47C5DBD9768D230D373B6 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		3ADBED9BB5C315EC8A799C08 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E7CE16FE49D1DAD8B7AF4F5 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		44B2E09C6045457518345256 /* Pods-NibView-NibView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NibView-NibView-dummy.m"; sourceTree = "<group>"; };
+		49D2E5DB61AB59A4C0315CA8 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		53DDC2DC28E9AE79724C181C /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7145624A0B72A035FD93FB /* Pods-NibView-NibView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NibView-NibView-Private.xcconfig"; sourceTree = "<group>"; };
+		66968A3B29D88D78AE44D1A0 /* Pods-NibView-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NibView-environment.h"; sourceTree = "<group>"; };
+		6F854DA165ED055234E03C5D /* Pods-NibView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NibView.release.xcconfig"; sourceTree = "<group>"; };
+		743BEE678AE3F063DDF4D189 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74B427C8168FEDF246034F96 /* UINibView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UINibView.m; sourceTree = "<group>"; };
+		8D64EC15AD3CCF38B2B27DB6 /* Pods-Tests-NibView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-NibView-Private.xcconfig"; path = "../Pods-Tests-NibView/Pods-Tests-NibView-Private.xcconfig"; sourceTree = "<group>"; };
+		90E6D2CDC1C1A02A2FC126CC /* Pods-NibView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NibView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98A11BBC8707035B1E3EB041 /* Pods-NibView-NibView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NibView-NibView.xcconfig"; sourceTree = "<group>"; };
+		9DF73D3AE4FD9B3F9933C995 /* Pods-Tests-NibView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-NibView.xcconfig"; path = "../Pods-Tests-NibView/Pods-Tests-NibView.xcconfig"; sourceTree = "<group>"; };
+		9FABCA068AAAB014435E1015 /* Pods-NibView-NibView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NibView-NibView-prefix.pch"; sourceTree = "<group>"; };
+		AAD3C58B50525DAAB6A4380B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B67643727708F31A7EAB0778 /* Pods-NibView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NibView-resources.sh"; sourceTree = "<group>"; };
+		B6952C02638A8F31E1827A5C /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BED9D75C16AF970C8ED7DD98 /* libPods-Tests-NibView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-NibView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C237E14AA5DDBA8CC9F166EC /* libPods-NibView-NibView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NibView-NibView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34B7BCEACD28B6B935953F2 /* Pods-Tests-NibView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-NibView-prefix.pch"; path = "../Pods-Tests-NibView/Pods-Tests-NibView-prefix.pch"; sourceTree = "<group>"; };
+		E54F9F301D1512E5A2211D76 /* Pods-Tests-NibView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-NibView-dummy.m"; path = "../Pods-Tests-NibView/Pods-Tests-NibView-dummy.m"; sourceTree = "<group>"; };
+		E784ACE563776B09AFF7F451 /* Pods-NibView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NibView-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB778ABBAE03CAF1559D87B4 /* libPods-NibView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NibView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67DF332D725C91887369070 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		F6C868DE3143C3B65BFEF60C /* Pods-NibView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NibView-dummy.m"; sourceTree = "<group>"; };
+		FC1184345DA238660B28B148 /* NibView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DAABB8D1DECEEA30ED479AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26907948DD72208416FC2F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C569CB84CB528B864048F0C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC89E7831D9B5176DFC2D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0639A64E5EAA042F089E38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B781138C05D7072D992BF214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AD6F98EE12F793EEC4656B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7391BF2FC8ED1B837EB7FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86F73D4E7EFA6705038ABCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B529A1B18A802BB8C39D6E90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD8162E04543FC5E3F27167 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A11BBC8707035B1E3EB041 /* Pods-NibView-NibView.xcconfig */,
+				5E7145624A0B72A035FD93FB /* Pods-NibView-NibView-Private.xcconfig */,
+				44B2E09C6045457518345256 /* Pods-NibView-NibView-dummy.m */,
+				9FABCA068AAAB014435E1015 /* Pods-NibView-NibView-prefix.pch */,
+				9DF73D3AE4FD9B3F9933C995 /* Pods-Tests-NibView.xcconfig */,
+				8D64EC15AD3CCF38B2B27DB6 /* Pods-Tests-NibView-Private.xcconfig */,
+				E54F9F301D1512E5A2211D76 /* Pods-Tests-NibView-dummy.m */,
+				E34B7BCEACD28B6B935953F2 /* Pods-Tests-NibView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-NibView-NibView";
+			sourceTree = "<group>";
+		};
+		0E054E90A3E9669375FA639A /* Pods-NibView */ = {
+			isa = PBXGroup;
+			children = (
+				90E6D2CDC1C1A02A2FC126CC /* Pods-NibView-acknowledgements.markdown */,
+				E784ACE563776B09AFF7F451 /* Pods-NibView-acknowledgements.plist */,
+				F6C868DE3143C3B65BFEF60C /* Pods-NibView-dummy.m */,
+				66968A3B29D88D78AE44D1A0 /* Pods-NibView-environment.h */,
+				B67643727708F31A7EAB0778 /* Pods-NibView-resources.sh */,
+				2CA633474FF6E268BC3C417D /* Pods-NibView.debug.xcconfig */,
+				6F854DA165ED055234E03C5D /* Pods-NibView.release.xcconfig */,
+			);
+			name = "Pods-NibView";
+			path = "Target Support Files/Pods-NibView";
+			sourceTree = "<group>";
+		};
+		1F88DDEC372E4D838992A782 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31FED45DD332A1FDBAF535E0 /* NibView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		31FED45DD332A1FDBAF535E0 /* NibView */ = {
+			isa = PBXGroup;
+			children = (
+				9A0C25B7F9CE29611011969B /* Pod */,
+				0BD8162E04543FC5E3F27167 /* Support Files */,
+			);
+			name = NibView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9A0C25B7F9CE29611011969B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A55F6F29D1875417B291FCD3 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A55F6F29D1875417B291FCD3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				26090194D0829397C4C8216F /* UINibView.h */,
+				74B427C8168FEDF246034F96 /* UINibView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CA06B36E76497F4B4C5240BE /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBED9BB5C315EC8A799C08 /* Pods-Tests-acknowledgements.markdown */,
+				B6952C02638A8F31E1827A5C /* Pods-Tests-acknowledgements.plist */,
+				32D47C5DBD9768D230D373B6 /* Pods-Tests-dummy.m */,
+				49D2E5DB61AB59A4C0315CA8 /* Pods-Tests-environment.h */,
+				F67DF332D725C91887369070 /* Pods-Tests-resources.sh */,
+				1161C9B1DDE5DE8F837860E6 /* Pods-Tests.debug.xcconfig */,
+				3E7CE16FE49D1DAD8B7AF4F5 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		DFE8FCA7D5DE782459DCB234 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				743BEE678AE3F063DDF4D189 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E51C89153F63856C765D4066 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E054E90A3E9669375FA639A /* Pods-NibView */,
+				CA06B36E76497F4B4C5240BE /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E98E128157F9C6CBB35C3F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08524E65F9774277F6118157 /* NibView.bundle */,
+				FC1184345DA238660B28B148 /* NibView.bundle */,
+				EB778ABBAE03CAF1559D87B4 /* libPods-NibView.a */,
+				C237E14AA5DDBA8CC9F166EC /* libPods-NibView-NibView.a */,
+				53DDC2DC28E9AE79724C181C /* libPods-Tests.a */,
+				BED9D75C16AF970C8ED7DD98 /* libPods-Tests-NibView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4CF0DA30B59F4C18A143E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE8FCA7D5DE782459DCB234 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDE2F0C4CFD52400062ED054 = {
+			isa = PBXGroup;
+			children = (
+				AAD3C58B50525DAAB6A4380B /* Podfile */,
+				1F88DDEC372E4D838992A782 /* Development Pods */,
+				FC4CF0DA30B59F4C18A143E2 /* Frameworks */,
+				E98E128157F9C6CBB35C3F79 /* Products */,
+				E51C89153F63856C765D4066 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FC7D2C99490CFCE1B89BA50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAFF0615F6DD25B3402D981 /* UINibView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA531EC28D407E0F52061005 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B76E7FDEAE3BA883AEDC01 /* UINibView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		073E3C9287ED370D881CD00B /* Pods-Tests-NibView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577927131CABE798259D32EF /* Build configuration list for PBXNativeTarget "Pods-Tests-NibView" */;
+			buildPhases = (
+				E8A01D401099DC003BC3DB48 /* Sources */,
+				AFC89E7831D9B5176DFC2D80 /* Frameworks */,
+				3FC7D2C99490CFCE1B89BA50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69223E1B33C844D61D23B70 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-NibView";
+			productName = "Pods-Tests-NibView";
+			productReference = BED9D75C16AF970C8ED7DD98 /* libPods-Tests-NibView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3842CC3876D9BB35A2C23CE9 /* Pods-NibView-NibView-NibView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09F6CB88AB1FEA6B240AE5E /* Build configuration list for PBXNativeTarget "Pods-NibView-NibView-NibView" */;
+			buildPhases = (
+				DF7055493939E04925C829A9 /* Sources */,
+				0DAABB8D1DECEEA30ED479AF /* Frameworks */,
+				4DE6B9482AF5A20B9D4FF914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NibView-NibView-NibView";
+			productName = "Pods-NibView-NibView-NibView";
+			productReference = FC1184345DA238660B28B148 /* NibView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		54C398A369013B65E3D3434C /* Pods-NibView-NibView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BBDAAF32CE233F019D47075 /* Build configuration list for PBXNativeTarget "Pods-NibView-NibView" */;
+			buildPhases = (
+				910BCFD6B7D927465CB80C09 /* Sources */,
+				B781138C05D7072D992BF214 /* Frameworks */,
+				FA531EC28D407E0F52061005 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64A3AC6D43E76E4DFD82ABE /* PBXTargetDependency */,
+			);
+			name = "Pods-NibView-NibView";
+			productName = "Pods-NibView-NibView";
+			productReference = C237E14AA5DDBA8CC9F166EC /* libPods-NibView-NibView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B60DC3CE38DB7C216290563 /* Pods-NibView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E994B825CABA41D94497D841 /* Build configuration list for PBXNativeTarget "Pods-NibView" */;
+			buildPhases = (
+				0F0553B5E5741C7DCF114034 /* Sources */,
+				26907948DD72208416FC2F91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7624CCFAE31935EF44B9E6A /* PBXTargetDependency */,
+			);
+			name = "Pods-NibView";
+			productName = "Pods-NibView";
+			productReference = EB778ABBAE03CAF1559D87B4 /* libPods-NibView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC753323D7699C36857C1ACC /* Pods-Tests-NibView-NibView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B983F27A53A52CF734847C /* Build configuration list for PBXNativeTarget "Pods-Tests-NibView-NibView" */;
+			buildPhases = (
+				8496C408EB6712A997A2E654 /* Sources */,
+				F7391BF2FC8ED1B837EB7FEA /* Frameworks */,
+				82116C5E44EAC04283A25969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-NibView-NibView";
+			productName = "Pods-Tests-NibView-NibView";
+			productReference = 08524E65F9774277F6118157 /* NibView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FA233480280E7D8FC23017F3 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C44A7DDB80CD846895B996 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				859678A86FD9DEEBA505F34E /* Sources */,
+				F86F73D4E7EFA6705038ABCF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5997EBE86AB5FC468F544980 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 53DDC2DC28E9AE79724C181C /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F06A5863F0C61C7FD152C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C1AFE101C06D3C44315DEE97 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDE2F0C4CFD52400062ED054;
+			productRefGroup = E98E128157F9C6CBB35C3F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B60DC3CE38DB7C216290563 /* Pods-NibView */,
+				54C398A369013B65E3D3434C /* Pods-NibView-NibView */,
+				3842CC3876D9BB35A2C23CE9 /* Pods-NibView-NibView-NibView */,
+				FA233480280E7D8FC23017F3 /* Pods-Tests */,
+				073E3C9287ED370D881CD00B /* Pods-Tests-NibView */,
+				DC753323D7699C36857C1ACC /* Pods-Tests-NibView-NibView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE6B9482AF5A20B9D4FF914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82116C5E44EAC04283A25969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F0553B5E5741C7DCF114034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD8F08C5E2C94F661C30A3A /* Pods-NibView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8496C408EB6712A997A2E654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859678A86FD9DEEBA505F34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93BC93714674436245F4664 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910BCFD6B7D927465CB80C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EE1F966852E6622539D6FA /* Pods-NibView-NibView-dummy.m in Sources */,
+				833B1A24BB64D37510DBBA76 /* UINibView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7055493939E04925C829A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A01D401099DC003BC3DB48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB631AEB14668DF46A32358 /* Pods-Tests-NibView-dummy.m in Sources */,
+				23402FA68B68B66919E3DB8C /* UINibView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5997EBE86AB5FC468F544980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-NibView";
+			target = 073E3C9287ED370D881CD00B /* Pods-Tests-NibView */;
+			targetProxy = FAB7A72F4F6DE364B598F9DC /* PBXContainerItemProxy */;
+		};
+		A69223E1B33C844D61D23B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-NibView-NibView";
+			target = DC753323D7699C36857C1ACC /* Pods-Tests-NibView-NibView */;
+			targetProxy = A68DC4D8EAF6996BCBDB3690 /* PBXContainerItemProxy */;
+		};
+		B64A3AC6D43E76E4DFD82ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NibView-NibView-NibView";
+			target = 3842CC3876D9BB35A2C23CE9 /* Pods-NibView-NibView-NibView */;
+			targetProxy = 6E6D8DC58D026AB5A4492FD2 /* PBXContainerItemProxy */;
+		};
+		B7624CCFAE31935EF44B9E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NibView-NibView";
+			target = 54C398A369013B65E3D3434C /* Pods-NibView-NibView */;
+			targetProxy = DC998F1C0B2ACB08DE3723C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		076EB27BA958C685272D9CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0EB38439F34FC8BC5F99A24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CA633474FF6E268BC3C417D /* Pods-NibView.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1D15708F06463767366BFF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7145624A0B72A035FD93FB /* Pods-NibView-NibView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NibView-NibView/Pods-NibView-NibView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44175BAAC75DBB139D63CE15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D64EC15AD3CCF38B2B27DB6 /* Pods-Tests-NibView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-NibView/Pods-Tests-NibView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44FE4863212E4B544738ADE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46C004F66B7DC539434223D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D64EC15AD3CCF38B2B27DB6 /* Pods-Tests-NibView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-NibView/Pods-Tests-NibView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		508BF7294A051705861F2118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1161C9B1DDE5DE8F837860E6 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A0594C1E39898604CE4BB5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F854DA165ED055234E03C5D /* Pods-NibView.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CC71FA58FB16CDA82F87E86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CD769A9DB77B5EB93AD4DE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7CE16FE49D1DAD8B7AF4F5 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CEEAB5AE0BD2ECDA4E9AD148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		ED52A98A6DA6BE502505399E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F7E3AD563DC1D930CEA7D01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7145624A0B72A035FD93FB /* Pods-NibView-NibView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-NibView-NibView/Pods-NibView-NibView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC2308B9CAA33BA8E9AEFC73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BBDAAF32CE233F019D47075 /* Build configuration list for PBXNativeTarget "Pods-NibView-NibView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D15708F06463767366BFF0D /* Debug */,
+				F7E3AD563DC1D930CEA7D01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C44A7DDB80CD846895B996 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508BF7294A051705861F2118 /* Debug */,
+				CD769A9DB77B5EB93AD4DE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B983F27A53A52CF734847C /* Build configuration list for PBXNativeTarget "Pods-Tests-NibView-NibView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED52A98A6DA6BE502505399E /* Debug */,
+				CC71FA58FB16CDA82F87E86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577927131CABE798259D32EF /* Build configuration list for PBXNativeTarget "Pods-Tests-NibView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44175BAAC75DBB139D63CE15 /* Debug */,
+				46C004F66B7DC539434223D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1AFE101C06D3C44315DEE97 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076EB27BA958C685272D9CA7 /* Debug */,
+				44FE4863212E4B544738ADE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E994B825CABA41D94497D841 /* Build configuration list for PBXNativeTarget "Pods-NibView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB38439F34FC8BC5F99A24F /* Debug */,
+				A0594C1E39898604CE4BB5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09F6CB88AB1FEA6B240AE5E /* Build configuration list for PBXNativeTarget "Pods-NibView-NibView-NibView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEEAB5AE0BD2ECDA4E9AD148 /* Debug */,
+				FC2308B9CAA33BA8E9AEFC73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F06A5863F0C61C7FD152C1 /* Project object */;
+}

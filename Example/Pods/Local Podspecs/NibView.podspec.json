@@ -1,0 +1,25 @@
+{
+  "name": "NibView",
+  "version": "0.1.0",
+  "summary": "A short description of NibView.",
+  "description": "                       An optional longer description of NibView\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NibView",
+  "license": "MIT",
+  "authors": {
+    "Chase Holland": "chase.holland@lumate.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NibView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "NibView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

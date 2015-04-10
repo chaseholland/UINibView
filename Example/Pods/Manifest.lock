@@ -1,0 +1,14 @@
+PODS:
+  - NibView (0.1.0)
+
+DEPENDENCIES:
+  - NibView (from `../`)
+
+EXTERNAL SOURCES:
+  NibView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NibView: 5b71b1c887d8072a5e02c42e2f9dc67cef94b3ec
+
+COCOAPODS: 0.36.0
