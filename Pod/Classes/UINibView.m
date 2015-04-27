@@ -34,6 +34,9 @@
 			if (secondItem == self)
 				secondItem = loadedView;
 			
+			if (firstItem == nil || secondItem == nil)
+				continue;
+			
 			NSLayoutConstraint* constraint = [NSLayoutConstraint constraintWithItem:firstItem
 																   attribute:constraint.firstAttribute
 																   relatedBy:constraint.relation
