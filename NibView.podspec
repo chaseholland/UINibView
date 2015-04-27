@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "NibView"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "Super simple, subclassable UIView that automatically loads itself from a nib when placed into Interface Builder (like a Storyboard)."
   s.description      = <<-DESC
   This is a super simple pod for those times when you want to create a UIView from a nib (.xib), but you're tired of typing all the extra code to do the automatic loading when you add your custom nib-based view to another view or view controller.
