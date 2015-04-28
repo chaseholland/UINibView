@@ -34,17 +34,14 @@
 			if (secondItem == self)
 				secondItem = loadedView;
 			
-			if (firstItem == nil || secondItem == nil)
-				continue;
-			
-			NSLayoutConstraint* constraint = [NSLayoutConstraint constraintWithItem:firstItem
-																   attribute:constraint.firstAttribute
-																   relatedBy:constraint.relation
-																	  toItem:secondItem
-																   attribute:constraint.secondAttribute
-																  multiplier:constraint.multiplier
-																		   constant:constraint.constant];
-			[loadedView addConstraint:constraint];
+			NSLayoutConstraint* c = [NSLayoutConstraint constraintWithItem:firstItem
+																 attribute:constraint.firstAttribute
+																 relatedBy:constraint.relation
+																	toItem:secondItem
+																 attribute:constraint.secondAttribute
+																multiplier:constraint.multiplier
+																  constant:constraint.constant];
+			[loadedView addConstraint:c];
 		}
 		
 		return loadedView;
