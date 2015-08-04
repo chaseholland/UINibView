@@ -1,0 +1,4 @@
+sx_image: xcode6.4
+language: objective-c
+xcode_workspace: Example/NibView.xcworkspace
+xcode_scheme: NibView
